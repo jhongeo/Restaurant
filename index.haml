@@ -4,6 +4,8 @@
 		%meta{charset:"utf-8"}
 		%title la mejor comida en Restaurante Gio
 		%meta{name:"description", content:"Come rico en el mejor restaurante de la ciudad, servicio de primera. Los mejores tacos de la ciudad."}
+		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"css/styles.css"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
 		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
 	%body
@@ -15,3 +17,8 @@
 		%a{href:"http://browsehappy.com/"}
 			actualiza tu navegador para una mejor experiencia.
 		="<![endif]-->"
+
+		.video-container
+			%video
+				%source{src:"./videos/mp4/bbq.mp4", type:"video/mp4"}
+				%source{src:"./videos/webm/bbq.webm", type:"video/webm"}

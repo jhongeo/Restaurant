@@ -1,0 +1,4 @@
+.video-container {
+  height: 100%; }
+  .video-container video {
+    display: none; }
